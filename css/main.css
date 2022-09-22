@@ -1,0 +1,113 @@
+#parallax h1 {
+	font-family:'Oswald',sans-serif;
+ 	font-size:24px;
+    letter-spacing:8px;  
+    text-align:center;
+    color:black;
+    font-weight:400;
+	text-transform: uppercase;
+	opacity:.95;
+    padding:0;
+    margin:0;
+	}
+
+#parallax h2 {
+	font-family:'Oswald',sans-serif;
+	font-size:70px;
+	letter-spacing:10px;
+	text-align:center;
+	color:white ;
+	font-weight:400;
+	text-transform:uppercase;
+	z-index:10;
+	opacity:.9;
+	}
+
+#parallax h3 {
+	font-family:'Oswald', sans-serif;
+	font-size:14px;
+	line-height:0;
+	font-weight:400;
+	letter-spacing:8px;
+	text-transform: uppercase;
+	color:black;
+	}
+
+#parallax .parallax-one {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image:url(https://turismo.buenosaires.gob.ar/sites/turismo/files/cabildo-panoramica-1500x610.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	}
+
+#parallax .parallax-two {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	overflow: hidden;
+	position: retative;
+	width: 100%;
+	background-image:url(https://turismo.buenosaires.gob.ar/sites/turismo/files/cafe-tortoni-barra-interior1500x610.jpg);
+	background-attachment: fixed;
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center center;
+	}
+
+#parallax .parallax-three {
+  	padding-top: 200px;
+	padding-bottom: 200px;
+  	overflow: hidden;
+	position: relativo;
+  	width: 100%;
+	background-image: url(https://turismo.buenosaires.gob.ar/sites/turismo/files/teatro_colon_fachada_noche_gente_1500x610_0.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center center;
+	}
+
+#parallax p {
+	font-family: 'Source Sans Pro', sans-serif;
+ 	font-weight:460;
+	font-size:14px;
+	line-height:24px;
+	}
+  .first-character {
+	font-weight:400;
+	float: left;
+	font-size: 84px;
+	line-height: 64px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-teft: 3px;
+	color: #c48660;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+#parallax .title { 
+    background: white;
+	padding: 60px;
+	margin:0 auto; |
+	text-align:center;
+	}
+  .block {
+	padding: 60px;
+	width:820px;
+	margin:0 auto;
+	text-align:justify;
+    }
+  .line-break {
+	border-bottom:1px solid black;
+	width: 150px;
+	margin:0 auto;
+	}
+ .line-break1 {
+	border-bottom:3px solid black;
+	width: 890px;
+	margin:0 auto;
+	}
